@@ -5,5 +5,4 @@ baseline: spec
 		for: #common
 		do: [ 
 			self
-				definePackages: spec;
-				defineDependencies: spec ]
+				definePackages: spec ]
