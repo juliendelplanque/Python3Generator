@@ -1,0 +1,14 @@
+{
+	"category" : "Python3Generator-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 1/7/2017 21:58",
+	"instvars" : [
+		"name" ],
+	"name" : "P3GIdentifier",
+	"pools" : [
+		 ],
+	"super" : "P3GGenerable",
+	"type" : "normal" }
