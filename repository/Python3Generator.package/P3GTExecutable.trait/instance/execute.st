@@ -1,4 +1,4 @@
 executing
 execute
-	MLBBridge current
+	P3GInterpreter current
 		executePythonCode: self generate
