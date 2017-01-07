@@ -1,8 +1,8 @@
 SmalltalkCISpec {
     #loading : [
         SCIMetacelloLoadSpec {
-            #baseline : Python3Generator,
-            #directory : repository,
+            #baseline : 'Python3Generator',
+            #directory : 'repository',
             #platforms : [ #pharo ]
         }
     ]

@@ -7,6 +7,5 @@ notifications:
 os:
     - linux
     - osx
-    - windows
 smalltalk:
     - Pharo-5.0
