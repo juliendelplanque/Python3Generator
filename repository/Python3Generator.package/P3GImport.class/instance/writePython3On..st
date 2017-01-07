@@ -1,5 +1,5 @@
 translating
 writePython3On: aStream
 	aStream
-		<< 'import ';
-		<< self moduleName
+		<< 'import '.
+	self moduleIdentifier writePython3On: aStream

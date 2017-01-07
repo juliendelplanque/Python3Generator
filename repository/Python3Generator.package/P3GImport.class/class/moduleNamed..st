@@ -1,5 +1,5 @@
 instance creation
 moduleNamed: aString
 	^ self new
-		moduleName: aString;
+		moduleIdentifier: (P3GIdentifier named: aString);
 		yourself

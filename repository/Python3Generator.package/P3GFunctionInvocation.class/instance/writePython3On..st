@@ -2,8 +2,8 @@ translating
 writePython3On: aStream
 	self target
 		ifNotNil: [ 
+			self target writePython3On: aStream.
 			aStream
-				<< self target;
 				<< $. ].
 	aStream
 		<< self functionName;

@@ -2,7 +2,7 @@ tests-building
 testWritePython3On2
 	| invocation string |
 	invocation := P3GFunctionInvocation new
-						target: 'math';
+						target: (P3GIdentifier named: 'math');
 						functionName: 'sin';
 						positionalArguments: { 45 };
 						yourself.
