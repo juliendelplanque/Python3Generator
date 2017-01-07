@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfPython3Generator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfPython3Generator",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
