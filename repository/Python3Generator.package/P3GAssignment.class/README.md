@@ -1,0 +1,1 @@
+I represent a Python assignment statement.

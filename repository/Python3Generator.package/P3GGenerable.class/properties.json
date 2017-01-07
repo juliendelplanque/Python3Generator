@@ -1,0 +1,14 @@
+{
+	"category" : "Python3Generator-Core",
+	"classinstvars" : [
+		"bridge" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 1/6/2017 18:11",
+	"instvars" : [
+		 ],
+	"name" : "P3GGenerable",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

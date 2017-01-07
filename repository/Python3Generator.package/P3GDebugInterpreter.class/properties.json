@@ -1,0 +1,14 @@
+{
+	"category" : "Python3Generator-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 1/7/2017 21:34",
+	"instvars" : [
+		 ],
+	"name" : "P3GDebugInterpreter",
+	"pools" : [
+		 ],
+	"super" : "P3GInterpreter",
+	"type" : "normal" }
