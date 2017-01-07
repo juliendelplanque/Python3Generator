@@ -1,5 +1,5 @@
 tests-building
-testBuildInvocationOn3
+testWritePython3On3
 	| invocation string |
 	invocation := P3GFunctionInvocation new
 						functionName: 'function';

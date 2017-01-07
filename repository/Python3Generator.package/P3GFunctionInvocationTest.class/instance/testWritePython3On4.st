@@ -1,5 +1,5 @@
 tests-building
-testBuildInvocationOn4
+testWritePython3On4
 	| invocation string |
 	invocation := P3GFunctionInvocation new
 						functionName: 'fct';

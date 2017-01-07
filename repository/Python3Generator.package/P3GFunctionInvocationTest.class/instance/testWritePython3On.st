@@ -1,10 +1,9 @@
 tests-building
-testBuildInvocationOn2
+testWritePython3On
 	| invocation string |
 	invocation := P3GFunctionInvocation new
-						target: 'math';
-						functionName: 'sin';
-						positionalArguments: { 45 };
+						functionName: 'print';
+						positionalArguments: { 'hello' };
 						yourself.
 	string := String streamContents: [ :s | invocation writePython3On: s ].
-	self assert: string equals: 'math.sin(45)'
+	self assert: string equals: 'print(''hello'')'
