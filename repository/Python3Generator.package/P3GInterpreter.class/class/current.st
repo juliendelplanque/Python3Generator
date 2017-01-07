@@ -1,3 +1,3 @@
 accessing
 current
-	^ current ifNil: [ current := MLBAtlasInterpreter ]
+	^ current ifNil: [ current := P3GDebugInterpreter ]

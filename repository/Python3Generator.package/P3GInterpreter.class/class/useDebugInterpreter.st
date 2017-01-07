@@ -1,3 +1,3 @@
 settings
-useDebugBridge
+useDebugInterpreter
 	self current: P3GDebugInterpreter
