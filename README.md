@@ -5,6 +5,6 @@ A toolkit to generate Python 3 source code from Pharo.
 ```
 Metacello new
     baseline: 'Python3Generator';
-    repository: 'github://juliendelplanque/MatplotLibBridge/repository';
+    repository: 'github://juliendelplanque/Python3Generator/repository';
     load
 ```
