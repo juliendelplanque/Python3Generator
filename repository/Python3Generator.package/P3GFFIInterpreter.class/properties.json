@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JulienDelplanque 1/11/2017 18:45",
+	"commentStamp" : "JulienDelplanque 1/11/2017 18:51",
 	"instvars" : [
 		 ],
-	"name" : "P3GDebugInterpreter",
+	"name" : "P3GFFIInterpreter",
 	"pools" : [
 		 ],
 	"super" : "P3GInterpreter",
