@@ -10,9 +10,8 @@ testWritePython3On
 					target: identifier;
 					toAssignate: 42;
 					yourself);
-		add: (P3GFunctionInvocation new
-					target: moduleIdentifier;
-					functionName: 'pow';
+		add: (P3GCall new
+					target: (P3GAttributeReference target: moduleIdentifier attributeIdentifier: 'pow' asP3GIdentifier);
 					positionalArguments: { identifier . 5 };
 					yourself).
 	string := String streamContents: [ :s | instructions writePython3On: s ].

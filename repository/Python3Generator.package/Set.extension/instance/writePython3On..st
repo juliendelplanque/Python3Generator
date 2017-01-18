@@ -1,9 +1,9 @@
 *Python3Generator
 writePython3On: aStream
 	self ifEmpty: [ "If empty, can't use '{}' or Python will think it is a dict."
-		P3GFunctionInvocation new
-			functionName: 'set';
-			writePython3On: aStream.
+		P3GCall new
+		target: 'set' asP3GIdentifier;
+		writePython3On: aStream.
 		^ self ].
 	
 	aStream << ${.
