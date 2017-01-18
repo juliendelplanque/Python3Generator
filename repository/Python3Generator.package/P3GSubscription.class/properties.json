@@ -1,0 +1,15 @@
+{
+	"category" : "Python3Generator-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 1/18/2017 10:09",
+	"instvars" : [
+		"target",
+		"insideBrackets" ],
+	"name" : "P3GSubscription",
+	"pools" : [
+		 ],
+	"super" : "P3GGenerable",
+	"type" : "normal" }
