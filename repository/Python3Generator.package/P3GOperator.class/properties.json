@@ -1,0 +1,14 @@
+{
+	"category" : "Python3Generator-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 6/2/2017 23:10",
+	"instvars" : [
+		"operator" ],
+	"name" : "P3GOperator",
+	"pools" : [
+		 ],
+	"super" : "P3GGenerable",
+	"type" : "normal" }

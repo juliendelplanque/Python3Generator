@@ -1,0 +1,15 @@
+{
+	"category" : "Python3Generator-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 6/2/2017 23:11",
+	"instvars" : [
+		"left",
+		"right" ],
+	"name" : "P3GBinaryOperator",
+	"pools" : [
+		 ],
+	"super" : "P3GOperator",
+	"type" : "normal" }
