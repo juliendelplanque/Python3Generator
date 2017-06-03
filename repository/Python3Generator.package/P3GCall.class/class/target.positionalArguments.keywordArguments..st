@@ -1,7 +1,7 @@
 instance creation
-target: aStringOrP3GIdentifier positionalArguments: anArray keywordArguments: aDictionary
+target: aP3GIdentifier positionalArguments: anArray keywordArguments: aDictionary
 	^ self new
-		target: aStringOrP3GIdentifier asP3GIdentifier;
+		target: aP3GIdentifier;
 		positionalArguments: anArray;
 		keywordArguments: aDictionary;
 		yourself
