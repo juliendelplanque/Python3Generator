@@ -6,4 +6,4 @@ testStringWritePython3On
 	string := String streamContents: [ :s | 'hello\a' writePython3On: s ].
 	self assert: string equals: '''hello\\a'''.
 	string := String streamContents: [ :s | 'hello',String cr writePython3On: s ].
-	self assert: string equals: '''hello\n'''
+	self assert: string equals: '''hello\r'''
