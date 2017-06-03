@@ -2,7 +2,7 @@
 	"category" : "Python3Generator-Core",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "P3GCallable classTrait + P3GAssignable classTrait + P3GAttributeAccess classTrait",
+	"classtraitcomposition" : "P3GCallable classTrait + P3GAssignable classTrait + P3GAttributeAccess classTrait + P3GImportable classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "JulienDelplanque 1/18/2017 09:31",
@@ -13,5 +13,5 @@
 	"pools" : [
 		 ],
 	"super" : "P3GGenerable",
-	"traitcomposition" : "P3GCallable + P3GAssignable + P3GAttributeAccess",
+	"traitcomposition" : "P3GCallable + P3GAssignable + P3GAttributeAccess + P3GImportable",
 	"type" : "normal" }
