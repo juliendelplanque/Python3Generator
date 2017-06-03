@@ -1,0 +1,1 @@
+I define methods to allow easy access to Python 3 object's attributes.

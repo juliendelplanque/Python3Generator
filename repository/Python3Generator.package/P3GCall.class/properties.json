@@ -2,7 +2,7 @@
 	"category" : "Python3Generator-Core",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "P3GTExecutable classTrait",
+	"classtraitcomposition" : "P3GTExecutable classTrait + P3GAttributeAccess classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "JulienDelplanque 1/18/2017 09:42",
@@ -15,5 +15,5 @@
 	"pools" : [
 		 ],
 	"super" : "P3GGenerable",
-	"traitcomposition" : "P3GTExecutable",
+	"traitcomposition" : "P3GTExecutable + P3GAttributeAccess",
 	"type" : "normal" }
