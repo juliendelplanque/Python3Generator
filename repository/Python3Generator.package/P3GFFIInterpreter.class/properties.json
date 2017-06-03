@@ -1,7 +1,7 @@
 {
 	"category" : "Python3Generator-Core",
 	"classinstvars" : [
-		 ],
+		"pathToPython" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "JulienDelplanque 1/11/2017 18:51",
