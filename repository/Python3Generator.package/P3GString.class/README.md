@@ -1,0 +1,1 @@
+I am a wrapper for Pharo Strings in order to be able to convert them to python strings.

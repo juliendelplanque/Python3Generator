@@ -1,0 +1,14 @@
+{
+	"category" : "Python3Generator-Core",
+	"classinstvars" : [
+		"charactersToEscape" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 6/3/2017 12:50",
+	"instvars" : [
+		"string" ],
+	"name" : "P3GString",
+	"pools" : [
+		 ],
+	"super" : "P3GGenerable",
+	"type" : "normal" }
