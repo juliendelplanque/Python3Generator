@@ -1,0 +1,1 @@
+I define methods to allow easily perform subscription on a Python object.
