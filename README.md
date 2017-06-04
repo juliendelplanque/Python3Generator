@@ -12,6 +12,7 @@ Metacello new
 ## Examples
 ### Getting os information in `/tmp/os.json` file
 ```
+"Use and initialize the FFI interpreter."
 P3GInterpreter useFFIInterpreter.
 P3GInterpreter current pathToPython: '/usr/bin/python3'.
 
@@ -68,4 +69,50 @@ instructions
 
 "Execute the program built (you can inspect instructions to see the source code)."
 instructions execute.
+```
+
+### Plot an histogram with MatplotLib
+```
+"Use and initialize the FFI interpreter."
+P3GInterpreter useFFIInterpreter.
+P3GInterpreter current pathToPython: '/usr/bin/python3'.
+
+numpy := 'numpy' asP3GIdentifier.
+mlab := 'matplotlib' asP3GIdentifier=>#mlab.
+pyplot := 'matplotlib' asP3GIdentifier=>#pyplot.
+
+instr := P3GInstructionsList new.
+
+instr addAll: {
+    "Import modules."
+    numpy import.
+    mlab import.
+    pyplot import.
+
+    "Set seed for random."
+    (numpy=>#random=>#seed) callWith: #(0).
+
+    "Example data"
+    #mu asP3GIdentifier <- 100.
+    #sigma asP3GIdentifier <- 15.
+    #x asP3GIdentifier <- (#mu asP3GIdentifier + (#sigma asP3GIdentifier * ((numpy=>#random=>#randn) callWith: #(437)))).
+
+    #num_bin asP3GIdentifier <- 50.
+
+    #res asP3GIdentifier <- (pyplot=>#subplots) call.
+    #fig asP3GIdentifier <- (#res asP3GIdentifier at: 0).
+    #ax asP3GIdentifier <- (#res asP3GIdentifier at: 1).
+
+    "Plot histogram of data."
+    #res asP3GIdentifier <- ((#ax asP3GIdentifier=>#hist) callWith: {#x asP3GIdentifier.#num_bin asP3GIdentifier} with: {'normed' -> 1 } asDictionary).
+    #bins asP3GIdentifier <- (#res asP3GIdentifier at: 1).
+
+    "Add a 'best fit line'"
+    #y asP3GIdentifier <- ((mlab=>#normpdf) callWith: {#bins asP3GIdentifier . #mu asP3GIdentifier . #sigma asP3GIdentifier}).
+    (#ax asP3GIdentifier=>#plot) callWith: { #bins asP3GIdentifier . #y asP3GIdentifier . '--' }.
+
+    (pyplot=>#show) call
+ }.
+
+instr execute
 ```
