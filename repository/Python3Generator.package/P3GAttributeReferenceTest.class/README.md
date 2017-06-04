@@ -1,0 +1,1 @@
+A P3GAttributeReferenceTest is a test class for testing the behavior of P3GAttributeReference
