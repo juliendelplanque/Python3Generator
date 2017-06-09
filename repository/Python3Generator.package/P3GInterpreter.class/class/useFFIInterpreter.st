@@ -1,3 +1,3 @@
 settings
 useFFIInterpreter
-	self current: P3GFFIInterpreter
+	self current: P3GFFIInterpreter new

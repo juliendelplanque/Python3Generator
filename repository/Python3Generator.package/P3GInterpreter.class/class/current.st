@@ -1,3 +1,3 @@
 accessing
 current
-	^ current ifNil: [ current := P3GDebugInterpreter ]
+	^ current ifNil: [ self useDebugInterpreter. current ]

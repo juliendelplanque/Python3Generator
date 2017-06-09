@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "JulienDelplanque 1/11/2017 18:51",
 	"instvars" : [
-		 ],
+		"pathToPython" ],
 	"name" : "P3GFFIInterpreter",
 	"pools" : [
 		 ],
