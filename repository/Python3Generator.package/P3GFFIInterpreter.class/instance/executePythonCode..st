@@ -9,5 +9,5 @@ executePythonCode: aString
 	LibC system: ('python3 {1} 2> {2}' format: {file pathString . errFile pathString}).
 	file ensureDelete.
 	[ errFile contents isNotEmpty
-		ifTrue: [ self error: errFile contents ]
+		ifTrue: [ P3GPythonException signal: errFile contents ]
 	] ensure: [ errFile ensureDelete ]

@@ -1,0 +1,14 @@
+{
+	"category" : "Python3Generator-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 6/9/2017 10:25",
+	"instvars" : [
+		 ],
+	"name" : "P3GPythonException",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }
