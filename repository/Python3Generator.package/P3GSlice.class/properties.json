@@ -1,16 +1,15 @@
 {
-	"category" : "Python3Generator-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JulienDelplanque 6/4/2017 11:24",
+	"super" : "P3GGenerable",
+	"category" : "Python3Generator-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"lowerBound",
 		"upperBound",
-		"stride" ],
+		"stride"
+	],
 	"name" : "P3GSlice",
-	"pools" : [
-		 ],
-	"super" : "P3GGenerable",
-	"type" : "normal" }
+	"type" : "normal"
+}

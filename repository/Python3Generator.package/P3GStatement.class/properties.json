@@ -1,16 +1,13 @@
 {
-	"category" : "Python3Generator-Core",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "P3GTExecutable classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "JulienDelplanque 1/6/2017 18:02",
-	"instvars" : [
-		 ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "P3GStatement",
-	"pools" : [
-		 ],
+	"commentStamp" : "JulienDelplanque 1/6/2017 18:02",
 	"super" : "P3GGenerable",
 	"traitcomposition" : "P3GTExecutable",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Python3Generator-Core"
+}

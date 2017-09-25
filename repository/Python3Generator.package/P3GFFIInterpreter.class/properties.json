@@ -1,14 +1,15 @@
 {
+	"commentStamp" : "JulienDelplanque 1/11/2017 18:51",
+	"super" : "P3GInterpreter",
 	"category" : "Python3Generator-Interpreters",
 	"classinstvars" : [
-		"pathToPython" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "JulienDelplanque 1/11/2017 18:51",
+		"pathToPython"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
-		"pathToPython" ],
+		"pathToPython"
+	],
 	"name" : "P3GFFIInterpreter",
-	"pools" : [
-		 ],
-	"super" : "P3GInterpreter",
-	"type" : "normal" }
+	"type" : "normal"
+}

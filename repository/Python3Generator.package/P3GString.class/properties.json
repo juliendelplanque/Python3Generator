@@ -1,16 +1,17 @@
 {
-	"category" : "Python3Generator-Core",
-	"classinstvars" : [
-		"charactersToEscape" ],
 	"classtraitcomposition" : "P3GSubscriptionable classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "JulienDelplanque 6/3/2017 12:50",
+	"classvars" : [ ],
 	"instvars" : [
-		"string" ],
+		"string"
+	],
 	"name" : "P3GString",
-	"pools" : [
-		 ],
+	"commentStamp" : "JulienDelplanque 6/3/2017 12:50",
 	"super" : "P3GGenerable",
 	"traitcomposition" : "P3GSubscriptionable",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [
+		"charactersToEscape"
+	],
+	"pools" : [ ],
+	"category" : "Python3Generator-Core"
+}

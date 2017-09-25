@@ -6,7 +6,7 @@ executePythonCode: aString
 	file writeStreamDo: [ :s |
 		s << aString ].
 	errFile := FileLocator temp / (baseFileName , '.pyerr').
-	LibC system: ('python3 {1} 2> {2}' format: {file pathString . errFile pathString}).
+	LibC system: ('{1} {2} 2> {3}' format: {self pathToPython . file pathString . errFile pathString}).
 	file ensureDelete.
 	[ errFile contents isNotEmpty
 		ifTrue: [ P3GPythonException signal: errFile contents ]

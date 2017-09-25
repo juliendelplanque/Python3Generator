@@ -1,14 +1,13 @@
 {
+	"commentStamp" : "JulienDelplanque 1/7/2017 21:34",
+	"super" : "Object",
 	"category" : "Python3Generator-Interpreters",
 	"classinstvars" : [
-		"current" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "JulienDelplanque 1/7/2017 21:34",
-	"instvars" : [
-		 ],
+		"current"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "P3GInterpreter",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

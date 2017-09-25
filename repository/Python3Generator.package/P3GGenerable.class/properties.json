@@ -1,14 +1,13 @@
 {
+	"commentStamp" : "JulienDelplanque 1/6/2017 18:11",
+	"super" : "Object",
 	"category" : "Python3Generator-Core",
 	"classinstvars" : [
-		"bridge" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "JulienDelplanque 1/6/2017 18:11",
-	"instvars" : [
-		 ],
+		"bridge"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "P3GGenerable",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

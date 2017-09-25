@@ -1,14 +1,13 @@
 {
-	"category" : "Python3Generator-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JulienDelplanque 6/2/2017 23:11",
-	"instvars" : [
-		"target" ],
-	"name" : "P3GUnaryOperator",
-	"pools" : [
-		 ],
 	"super" : "P3GOperator",
-	"type" : "normal" }
+	"category" : "Python3Generator-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"target"
+	],
+	"name" : "P3GUnaryOperator",
+	"type" : "normal"
+}

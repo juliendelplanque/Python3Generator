@@ -1,4 +1,5 @@
 {
-	"category" : "Python3Generator-Traits",
+	"name" : "P3GCallable",
 	"commentStamp" : "JulienDelplanque 6/3/2017 14:27",
-	"name" : "P3GCallable" }
+	"category" : "Python3Generator-Traits"
+}
