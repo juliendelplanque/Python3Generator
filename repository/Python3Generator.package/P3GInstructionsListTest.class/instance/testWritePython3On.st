@@ -15,4 +15,4 @@ testWritePython3On
 					positionalArguments: { identifier . 5 };
 					yourself).
 	string := String streamContents: [ :s | instructions writePython3On: s ].
-	self assert: string equals: ('import numpy{1}import math{1}hello = 42{1}math.pow(hello,5){1}' format: { Smalltalk os lineEnding })
+	self assert: string equals: ('import math{1}hello = 42{1}math.pow(hello,5){1}' format: { Smalltalk os lineEnding })
