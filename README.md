@@ -2,12 +2,16 @@
 A toolkit to generate Python 3 source code from Pharo.
 
 ## Install
+To be able to execute the Python code generated directly from Pharo, you need to have Python 3 installed on your computer.
+
 ```
 Metacello new
     baseline: 'Python3Generator';
     repository: 'github://juliendelplanque/Python3Generator/repository';
     load
 ```
+
+Once Python3Generator is installed in your image, you need to configure [Python3Generator](https://github.com/juliendelplanque/Python3Generator) to use the Python interpreter you prefer. My advise is to use the FFI interpreter using: `P3GInterpreter useFFIInterpreter`. If your `python3` binary is located in a standard path in your file system, it should be fine, else you can manually set the path to `python3` binary using for example: `P3GInterpreter current pathToPython: '/usr/bin/python3'`.
 
 ## Examples
 ### Getting os information in `/tmp/os.json` file
@@ -72,6 +76,8 @@ instructions execute.
 ```
 
 ### Plot an histogram with MatplotLib
+Remark to really use MatplotLib from Pharo, I created the [MatplotLibBridge](https://github.com/juliendelplanque/MatplotLibBridge) project which provides an higher lever interface.
+
 ```
 "Use and initialize the FFI interpreter."
 P3GInterpreter useFFIInterpreter.
