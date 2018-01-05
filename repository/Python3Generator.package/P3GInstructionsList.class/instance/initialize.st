@@ -2,4 +2,6 @@ initialization
 initialize
 	super initialize.
 	self
-		instructions: OrderedCollection new
+		instructions: OrderedCollection new;
+		indentationsCount: 0;
+		indentationChar: Character space

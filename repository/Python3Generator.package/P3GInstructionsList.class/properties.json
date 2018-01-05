@@ -2,6 +2,8 @@
 	"classtraitcomposition" : "P3GTExecutable classTrait",
 	"classvars" : [ ],
 	"instvars" : [
+		"indentationsCount",
+		"indentationChar",
 		"instructions"
 	],
 	"name" : "P3GInstructionsList",
