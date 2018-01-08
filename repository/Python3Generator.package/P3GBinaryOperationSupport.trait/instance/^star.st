@@ -1,4 +1,4 @@
-operators
+arithmetic operators
 * anObject
 	^ P3GBinaryOperator new
 		operator: $*;
