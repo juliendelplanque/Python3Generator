@@ -1,5 +1,7 @@
 {
-	"name" : "P3GTExecutable",
 	"commentStamp" : "JulienDelplanque 6/3/2017 13:53",
-	"category" : "Python3Generator-Traits"
+	"classinstvars" : [ ],
+	"category" : "Python3Generator-Traits",
+	"instvars" : [ ],
+	"name" : "P3GTExecutable"
 }

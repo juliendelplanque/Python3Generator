@@ -1,5 +1,7 @@
 {
-	"name" : "P3GImportable",
 	"commentStamp" : "JulienDelplanque 6/3/2017 15:05",
-	"category" : "Python3Generator-Traits"
+	"classinstvars" : [ ],
+	"category" : "Python3Generator-Traits",
+	"instvars" : [ ],
+	"name" : "P3GImportable"
 }
