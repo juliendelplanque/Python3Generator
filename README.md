@@ -134,3 +134,6 @@ instr addAll: {
 
 instr execute
 ```
+
+# Acknowledgement
+- Thanks to [Alejandro Infante](https://github.com/alejandroinfante) for his contribution to this project (based on his work on [Python3Bridge](https://github.com/ObjectProfile/PythonBridge) that you should check by the way, it is a nice complement to P3G).
