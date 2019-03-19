@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulienDelplanque 3/19/2019 21:18",
+	"super" : "TestCase",
+	"category" : "Python3Generator-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "P3GLambdaTest",
+	"type" : "normal"
+}
