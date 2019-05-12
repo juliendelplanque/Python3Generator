@@ -1,4 +1,9 @@
 comparing
 = anObject
-	^ self class = anObject class
-		and: [ self name = anObject name ]
+	"Answer whether the receiver and anObject represent the same object."
+
+	self == anObject
+		ifTrue: [ ^ true ].
+	self class = anObject class
+		ifFalse: [ ^ false ].
+	^ name = anObject name

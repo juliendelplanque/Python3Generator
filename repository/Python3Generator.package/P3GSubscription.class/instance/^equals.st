@@ -6,4 +6,5 @@ comparing
 		ifTrue: [ ^ true ].
 	self class = anObject class
 		ifFalse: [ ^ false ].
-	^ moduleIdentifier = anObject moduleIdentifier
+	^ insideBrackets = anObject insideBrackets
+		and: [ target = anObject target ]

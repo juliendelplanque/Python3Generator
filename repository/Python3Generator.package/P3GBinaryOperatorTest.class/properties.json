@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"operator"
+	],
 	"name" : "P3GBinaryOperatorTest",
 	"type" : "normal"
 }

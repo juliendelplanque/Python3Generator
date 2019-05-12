@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"attrRef"
+	],
 	"name" : "P3GAttributeReferenceTest",
 	"type" : "normal"
 }

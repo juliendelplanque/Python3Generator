@@ -6,4 +6,6 @@ comparing
 		ifTrue: [ ^ true ].
 	self class = anObject class
 		ifFalse: [ ^ false ].
-	^ moduleIdentifier = anObject moduleIdentifier
+	^ instructions = anObject instructions
+		and: [ indentationChar = anObject indentationChar
+				and: [ indentationsCount = anObject indentationsCount ] ]

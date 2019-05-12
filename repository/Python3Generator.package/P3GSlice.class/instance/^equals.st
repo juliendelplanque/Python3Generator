@@ -6,4 +6,5 @@ comparing
 		ifTrue: [ ^ true ].
 	self class = anObject class
 		ifFalse: [ ^ false ].
-	^ moduleIdentifier = anObject moduleIdentifier
+	^ lowerBound = anObject lowerBound
+		and: [ stride = anObject stride and: [ upperBound = anObject upperBound ] ]

@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"subscription"
+	],
 	"name" : "P3GSubscriptionTest",
 	"type" : "normal"
 }

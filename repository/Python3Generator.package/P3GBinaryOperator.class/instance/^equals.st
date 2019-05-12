@@ -6,4 +6,5 @@ comparing
 		ifTrue: [ ^ true ].
 	self class = anObject class
 		ifFalse: [ ^ false ].
-	^ moduleIdentifier = anObject moduleIdentifier
+	^ right = anObject right
+		and: [ left = anObject left and: [ operator = anObject operator ] ]
