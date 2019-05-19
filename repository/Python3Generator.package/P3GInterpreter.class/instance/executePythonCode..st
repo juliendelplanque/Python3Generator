@@ -1,3 +1,0 @@
-python
-executePythonCode: aString
-	self subclassResponsibility

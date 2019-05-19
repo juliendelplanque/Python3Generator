@@ -1,3 +1,0 @@
-call
-call
-	^ self callWith: #()

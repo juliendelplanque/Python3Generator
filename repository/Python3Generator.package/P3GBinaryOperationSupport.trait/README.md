@@ -1,1 +1,0 @@
-I define methods to allow easy use of Python 3 binary operators.

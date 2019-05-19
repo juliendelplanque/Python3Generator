@@ -1,1 +1,0 @@
-A P3GExtensionTest is a test class for testing the behavior of extensions method of this package.

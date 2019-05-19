@@ -1,1 +1,0 @@
-I am a Python 3 lambda.

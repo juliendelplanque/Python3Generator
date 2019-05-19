@@ -1,1 +1,0 @@
-A P3GSubscriptionTest is a test class for testing the behavior of P3GSubscription

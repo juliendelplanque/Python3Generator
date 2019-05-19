@@ -1,1 +1,0 @@
-I define methods to allow easy call on Python 3 object's.
