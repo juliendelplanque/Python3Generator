@@ -1,4 +1,10 @@
-# Python3Generator [![Build Status](https://travis-ci.org/juliendelplanque/Python3Generator.svg?branch=master)](https://travis-ci.org/juliendelplanque/Python3Generator)
+# Python3Generator
+[![Build Status](https://travis-ci.org/juliendelplanque/Python3Generator.svg?branch=master)](https://travis-ci.org/juliendelplanque/Python3Generator)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/juliendelplanque/Python3Generator/master/LICENSE)
+[![Pharo version](https://img.shields.io/badge/Pharo-6.1-%23aac9ff.svg)](https://pharo.org/download)
+[![Pharo version](https://img.shields.io/badge/Pharo-7.0-%23aac9ff.svg)](https://pharo.org/download)
+[![Pharo version](https://img.shields.io/badge/Pharo-8.0-%23aac9ff.svg)](https://pharo.org/download)
+
 A toolkit to generate Python 3 source code from Pharo.
 
 ## Install
@@ -11,7 +17,7 @@ Metacello new
     load
 ```
 
-Once Python3Generator is installed in your image, you need to configure [Python3Generator](https://github.com/juliendelplanque/Python3Generator) to use the Python interpreter you prefer. My advise is to use the FFI interpreter using: `P3GInterpreter useFFIInterpreter`. If your `python3` binary is located in a standard path in your file system, it should be fine, else you can manually set the path to `python3` binary using for example: `P3GInterpreter current pathToPython: '/usr/bin/python3'`.
+If your `python3` binary is located in a standard path in your file system, it should be fine, else you can manually set the path to `python3` binary using for example: `P3GInterpreter current pathToPython: '/usr/bin/python3'`.
 
 ## Version management 
 
@@ -28,10 +34,6 @@ Thus, it should be safe to depend on a fixed major version and moving minor vers
 ## Examples
 ### Getting os information in `/tmp/os.json` file
 ```
-"Use and initialize the FFI interpreter."
-P3GInterpreter useFFIInterpreter.
-P3GInterpreter current pathToPython: '/usr/bin/python3'.
-
 instr := P3GInstructionsList new.
 
 json := 'json' asP3GIdentifier.
@@ -53,10 +55,6 @@ instr execute.
 
 ### Open a Qt window using PyQt4
 ```
-"Use and initialize the FFI interpreter."
-P3GInterpreter useFFIInterpreter.
-P3GInterpreter current pathToPython: '/usr/bin/python3'.
-
 "instructions will hold the instructions of the program we are going to build."
 instructions := P3GInstructionsList new.
 
@@ -88,13 +86,9 @@ instructions execute.
 ```
 
 ### Plot an histogram with MatplotLib
-Remark to really use MatplotLib from Pharo, I created the [MatplotLibBridge](https://github.com/juliendelplanque/MatplotLibBridge) project which provides an higher lever interface.
+> Remark: To really use MatplotLib from Pharo, I created the [MatplotLibBridge](https://github.com/juliendelplanque/MatplotLibBridge) project which provides an higher lever interface.
 
 ```
-"Use and initialize the FFI interpreter."
-P3GInterpreter useFFIInterpreter.
-P3GInterpreter current pathToPython: '/usr/bin/python3'.
-
 numpy := 'numpy' asP3GIdentifier.
 mlab := 'matplotlib' asP3GIdentifier=>#mlab.
 pyplot := 'matplotlib' asP3GIdentifier=>#pyplot.
