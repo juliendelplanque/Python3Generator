@@ -13,7 +13,7 @@ To be able to execute the Python code generated directly from Pharo, you need to
 ```
 Metacello new
     baseline: 'Python3Generator';
-    repository: 'github://juliendelplanque/Python3Generator/repository';
+    repository: 'github://juliendelplanque/Python3Generator/src';
     load
 ```
 
