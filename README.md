@@ -7,6 +7,13 @@
 
 A toolkit to generate Python 3 source code from Pharo.
 
+- [Python3Generator](#python3generator)
+  * [Install](#install)
+  * [Version management](#version-management)
+  * [Examples](#examples)
+- [Python3Generator users](#python3generator-users)
+- [Acknowledgement](#acknowledgement)
+
 ## Install
 To be able to execute the Python code generated directly from Pharo, you need to have Python 3 installed on your computer.
 
@@ -128,6 +135,12 @@ instr addAll: {
 
 instr execute
 ```
+
+# Python3Generator users
+- [MatplotLibBridge](https://github.com/juliendelplanque/MatplotLibBridge)
+- [PythonBridge](https://objectprofile.github.io/PythonBridge) ([github repository](https://github.com/ObjectProfile/PythonBridge))
+
+> You are using Python3Generator and want your project listed here? Open a pull request.
 
 # Acknowledgement
 - Thanks to [Alejandro Infante](https://github.com/alejandroinfante) for his contribution to this project (based on his work on [Python3Bridge](https://github.com/ObjectProfile/PythonBridge) that you should check by the way, it is a nice complement to P3G).
