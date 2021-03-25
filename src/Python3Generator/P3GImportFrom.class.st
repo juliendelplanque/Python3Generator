@@ -7,7 +7,7 @@ Class {
 	#category : #'Python3Generator-Core'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : #'instance creation' }
 P3GImportFrom class >> moduleNamed: aString names: aCollection [
 	^ (self moduleNamed: aString)
 		names: aCollection;
