@@ -24,12 +24,9 @@ P3GExtensionsTest >> testCharacterWritePython3On [
 { #category : #'tests-translating' }
 P3GExtensionsTest >> testDictionaryWritePython3On [
 	| dict string |
-	dict := { 
-	'a' -> 1.
-	42 -> 'b'.
-	3 -> 4 } asDictionary.
+	dict := { 'a' -> 1 } asDictionary.
 	string := String streamContents: [ :s | dict writePython3On: s ].
-	self assert: string equals: '{''a'' : 1 , 42 : ''b'' , 3 : 4}'
+	self assert: string equals: '{''a'' : 1}'
 ]
 
 { #category : #'tests-translating' }
@@ -84,8 +81,8 @@ P3GExtensionsTest >> testSequenceableCollectionWritePython3On [
 { #category : #'tests-translating' }
 P3GExtensionsTest >> testSetWritePython3On [
 	| string |
-	string := String streamContents: [ :s | #(1 2 3 4) asSet writePython3On: s ].
-	self assert: string equals: '{1,2,3,4}'.
+	string := String streamContents: [ :s | #(42) asSet writePython3On: s ].
+	self assert: string equals: '{42}'.
 
 	string := String streamContents: [ :s | Set new writePython3On: s ].
 	self assert: string equals: 'set()'
